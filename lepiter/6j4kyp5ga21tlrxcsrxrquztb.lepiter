@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:08:27.694969+01:00"
+						"dateAndTimeString" : "2024-02-12T10:28:54.189197+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,49 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:09:11.014143+01:00"
+						"dateAndTimeString" : "2024-02-12T10:28:54.189197+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kjOTW43NDQCY9A3MA11Sbg=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "This repo holds experimental stuff for playing around."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:09:14.00457+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:09:14.00457+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "1dJVXo3NDQCaNpBHA11Sbg=="
+					"uidString" : "ogSupI3NDQC2ArjFA11Sbg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -92,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:08:15.475789+01:00"
+						"dateAndTimeString" : "2024-02-12T10:30:55.775815+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +66,122 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:08:15.475789+01:00"
+						"dateAndTimeString" : "2024-02-12T10:41:02.939804+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ZsDYWo3NDQCY8xbsA11Sbg=="
+					"uidString" : "UkXtq43NDQC2BRhjA11Sbg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "First we [[Clone the Money classes]] "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-12T10:43:20.427849+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-12T10:43:27.786941+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6cFP2I3NDQC9R8fCA11Sbg=="
+				},
+				"code" : "Money new"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-12T10:41:04.575284+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-12T10:41:04.575284+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "W8s20I3NDQC84rTBA11Sbg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
 				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-12T10:41:19.977405+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-12T10:41:53.422678+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "utMh0Y3NDQC8584UA11Sbg=="
+				},
+				"code" : "100 gtEUR"
 			}
 		]
 	},
@@ -125,7 +193,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-02-12T10:08:27.689585+01:00"
+			"dateAndTimeString" : "2024-02-12T10:28:54.157137+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +204,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-02-12T10:11:56.566463+01:00"
+			"dateAndTimeString" : "2024-02-12T10:28:54.157137+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Oscar's GT Stuff"
+		"title" : "Price EDD tutorial"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "7679d85a-8dcd-0d00-98f2-6bdf035d526e"
+		"uuid" : "cf86ada4-8dcd-0d00-b601-b4cf035d526e"
 	}
 }

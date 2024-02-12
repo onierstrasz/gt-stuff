@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:08:27.694969+01:00"
+						"dateAndTimeString" : "2024-02-12T10:31:05.340174+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,20 +29,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:09:11.014143+01:00"
+						"dateAndTimeString" : "2024-02-12T10:40:51.076669+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kjOTW43NDQCY9A3MA11Sbg=="
+					"uidString" : "Mjl/rI3NDQC2tsJsA11Sbg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This repo holds experimental stuff for playing around."
+				"string" : "We clone the GtDMoney classes locally as Money etc."
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:09:14.00457+01:00"
+						"dateAndTimeString" : "2024-02-12T10:31:14.229425+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,54 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:09:14.00457+01:00"
+						"dateAndTimeString" : "2024-02-12T10:39:52.207423+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "1dJVXo3NDQCaNpBHA11Sbg=="
+					"uidString" : "SNkGrY3NDQC2w177A11Sbg=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:08:15.475789+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-12T10:08:15.475789+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "ZsDYWo3NDQCY8xbsA11Sbg=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "cloneClassPackage := 'GtStuff-Prices'.\rGtDMoney withAllSubclasses reversed\r\tdo: [ :class | \r\t\tclassToClone := class.\r\t\tcloneClassSymbol := (class name withoutPrefix: 'GtD') asSymbol.\r\t\t(classToClone superclass name withoutPrefix: 'GtD') asClass\r\t\t\tsubclass: cloneClassSymbol\r\t\t\tinstanceVariableNames: (' ' join: classToClone instVarNames)\r\t\t\tclassVariableNames: (' ' join: classToClone classVarNames)\r\t\t\tpackage: cloneClassPackage.\r\r\t\tcloneClass := cloneClassSymbol asClass.\r\t\tclassToClone methods\r\t\t\tdo: [ :m | \r\t\t\t\tcloneClass compile: m sourceCode.\r\t\t\t\tcloneClass >> m selector protocol: m protocol ] ].\r#Money asClass."
 			}
 		]
 	},
@@ -125,7 +85,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-02-12T10:08:27.689585+01:00"
+			"dateAndTimeString" : "2024-02-12T10:31:05.31189+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +96,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-02-12T10:11:56.566463+01:00"
+			"dateAndTimeString" : "2024-02-12T10:31:05.31189+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Oscar's GT Stuff"
+		"title" : "Clone the Money classes"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "7679d85a-8dcd-0d00-98f2-6bdf035d526e"
+		"uuid" : "35ca7eac-8dcd-0d00-b6b5-250a035d526e"
 	}
 }
