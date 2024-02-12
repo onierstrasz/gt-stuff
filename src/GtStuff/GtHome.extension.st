@@ -2,7 +2,7 @@ Extension { #name : #GtHome }
 
 { #category : #'*GtStuff' }
 GtHome >> gtStuffSection [
-	<gtHomeSection>
+	"<gtHomeSection>"
 	<gtExample>
 	<noTest>
 	^ GtStuffHomeSection new
